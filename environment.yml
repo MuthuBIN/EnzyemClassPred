@@ -1,0 +1,10 @@
+name: rdkit-env
+channels:
+  - rdkit
+  - conda-forge
+dependencies:
+  - python=3.9  # Ensure the Python version matches your app's version
+  - rdkit       # Install RDKit from conda-forge
+  - pip
+  - pip:
+    - streamlit  # Ensure Streamlit is installed in the Conda environment
